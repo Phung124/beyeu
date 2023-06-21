@@ -1,0 +1,23 @@
+ul.admincb_list{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+ul.admincb_list li{
+    float: left;
+    margin: 5px;
+}
+.title_admin{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+}
+#wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0px auto;
+}
+.clean{
+    clear: both;
+}
