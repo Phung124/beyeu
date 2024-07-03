@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container1lt {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.containerlt {
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    position: absolute;
+    top: 188px;
+}
+
+.form-containerlt, .schedule-container {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #fff;  
+}
+
+h2 {
+    text-align: center;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#vaccineForm label {
+    margin-bottom: 5px;
+}
+
+#vaccineForm input,#vaccineForm button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#vaccineForm button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#vaccineForm button:hover {
+    background-color: #218838;
+}
+
+.schedule-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.schedule-container li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+.status-button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #dc3545;
+    color: white;
+}
+
+.status-button.tiem {
+    background-color: #28a745;
+}
